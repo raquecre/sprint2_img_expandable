@@ -1,0 +1,21 @@
+#containerImg {
+    display: flex;
+    justify-content: center;
+}
+
+.imagesToTransforms {
+    border-radius: 10px;
+    width: 8%;
+    height: 1000px;
+    object-fit: none;
+    
+    padding: 8px;
+    transition: width 1s;
+}
+
+.active {
+    width: 65%;
+    
+
+}
+
