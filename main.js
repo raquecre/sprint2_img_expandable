@@ -1,12 +1,14 @@
 
-let imgsSelector = document.querySelectorAll('img');
-console.log(imgsSelector);
-
-
+let imgsSelector = document.querySelectorAll('.imagesToTransforms');
+//target
 imgsSelector.forEach((img) => {
-    img.onclick = function () {
-        img.style.width = '65%'
+    img.onclick = function () { 
+        //img.className = 'active';
+        img.classList.toggle('imagesToTransforms');
+
     }
+
+   
 });
 
 

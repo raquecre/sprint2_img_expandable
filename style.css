@@ -1,21 +1,31 @@
 #containerImg {
     display: flex;
     justify-content: center;
+    gap: 10px;
+    transition: 2s;
 }
 
-.imagesToTransforms {
+ .imagesToTransforms{
+    display: flex;
+    justify-content: center;
     border-radius: 10px;
     width: 8%;
     height: 1000px;
     object-fit: none;
-    
     padding: 8px;
-    transition: width 1s;
+    transition: 2s;
 }
 
-.active {
-    width: 65%;
-    
+img{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    width: 68%;
+    height: 1000px;
+    object-fit: none;
+    padding: 8px;
+    transition: 2s;
 
 }
 
